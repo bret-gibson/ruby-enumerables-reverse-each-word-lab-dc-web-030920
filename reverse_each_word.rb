@@ -5,6 +5,7 @@ sentenceArray = sentence.split(" ")
 sentenceArray.reverse.each do |x|
   puts x
 end
+=begin
 sentenceArray.each do |ele|
   tempArr = ele.split("")
   count = 0
@@ -13,5 +14,6 @@ sentenceArray.each do |ele|
 
   end
 end
+=end
 puts newArr
 end
