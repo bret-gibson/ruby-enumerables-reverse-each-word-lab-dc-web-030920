@@ -12,6 +12,7 @@ sentenceArray.each do |ele|
     index -= 1
     count +=1
   end
+  return returnArr
 end
 =begin
 sentenceArray.each do |ele|
