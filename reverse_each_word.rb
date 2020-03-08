@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
 sentenceArray = sentence.split(" ")
 returnString = ""
 sentenceArray.each do |ele|
-  returnString += "#{ele.reverse} ""
+  returnString += "#{ele.reverse} "
   puts ele.reverse
   ele.reverse
 end
