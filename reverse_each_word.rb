@@ -1,9 +1,9 @@
 require 'pry'
 
 def reverse_each_word(sentence)
-letterArray = sentence.split(" ")
+sentenceArray = sentence.split(" ")
 puts letterArray[0]
-letterArray.each do |ele|
+sentenceArray.each do |ele|
   
 end
 puts newArr
