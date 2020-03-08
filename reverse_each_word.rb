@@ -2,7 +2,12 @@ require 'pry'
 
 def reverse_each_word(sentence)
 sentenceArray = sentence.split(" ")
+sentenceArray.each do |ele|
+  puts ele.reverse
+  ele.reverse
+end
 returnArr = []
+=begin
 sentenceArray.each do |ele|
   tempArr = ele.split(" ")
   count = 0
@@ -16,4 +21,5 @@ sentenceArray.each do |ele|
   puts returnArr
   return returnArr
 end
+=end
 end
