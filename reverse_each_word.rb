@@ -6,5 +6,5 @@ puts letterArray
 newArr = letterArray.each do |ele|
   ele.reverse
 end
-
+puts newArr
 end
