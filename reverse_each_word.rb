@@ -3,7 +3,7 @@ require 'pry'
 def reverse_each_word(sentence)
 sentenceArray = sentence.split(" ")
 returnString = ""
-count
+count = 0
 sentenceArray.each do |ele|
   if sentenceArray.length == count
     returnString += "#{ele.reverse}"
