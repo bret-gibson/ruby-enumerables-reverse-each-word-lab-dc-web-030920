@@ -7,7 +7,7 @@ index = 0
 
 sentenceArray.collect do |ele|
   index = 0
-  if index == sentenceArray.size - 1
+  if ele.equal?(users.last)
     returnString += "#{ele.reverse}"
   else
     returnString += "#{ele.reverse} "
