@@ -13,7 +13,7 @@ sentenceArray.each do |ele|
     index -= 1
     count +=1
   end
-  puts retrunArr
+  puts returnArr
   return returnArr
 end
 =begin
