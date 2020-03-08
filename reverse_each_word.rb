@@ -5,7 +5,7 @@ sentenceArray = sentence.split(" ")
 returnString = ""
 count = 0
 sentenceArray.each_with_index do |ele, index|
-  if index == -1
+  if index == sentenceArray.size - 1
     returnString += "#{ele.reverse}"
   else
     returnString += "#{ele.reverse} "
