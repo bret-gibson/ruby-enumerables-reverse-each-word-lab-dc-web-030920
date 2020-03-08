@@ -12,7 +12,6 @@ sentenceArray.collect do |ele|
   else
     returnString += "#{ele.reverse} "
   end
-  index +=1
   ele.reverse
 end
 return returnString
