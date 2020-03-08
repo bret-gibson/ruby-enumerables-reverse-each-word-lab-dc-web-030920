@@ -8,7 +8,6 @@ sentenceArray.each do |ele|
   index = -1
   while count < tempArr.length do
     puts tempArr[index]
-
     index -= 1
     count +=1
   end
