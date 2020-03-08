@@ -10,7 +10,6 @@ sentenceArray.each_with_index do |ele, index|
   else
     returnString += "#{ele.reverse} "
   end
-  count +=1
   puts ele.reverse
   ele.reverse
 end
