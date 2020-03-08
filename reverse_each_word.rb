@@ -11,7 +11,6 @@ sentenceArray.reverse.each do |ele|
     index -= 1
     count +=1
   end
-  puts tempArr
 end
 =begin
 sentenceArray.each do |ele|
