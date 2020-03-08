@@ -8,7 +8,8 @@ sentenceArray.each do |ele|
   count = 0
   index = -1
   while count < tempArr.length do
-    returnArr << tempArr[index].reverse
+    ele = tempArr[index].reverse
+    ele << returnArr
     index -= 1
     count +=1
   end
