@@ -16,14 +16,4 @@ sentenceArray.each do |ele|
   puts returnArr
   return returnArr
 end
-=begin
-sentenceArray.each do |ele|
-  tempArr = ele.split("")
-  count = 0
-  reversedArr
-  while count < tempArr.length do
-
-  end
-end
-=end
 end
