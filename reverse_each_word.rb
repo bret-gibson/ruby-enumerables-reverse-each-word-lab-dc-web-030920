@@ -22,5 +22,4 @@ sentenceArray.each do |ele|
   end
 end
 =end
-puts newArr
 end
