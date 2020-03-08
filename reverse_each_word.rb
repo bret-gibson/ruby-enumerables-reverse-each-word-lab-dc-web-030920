@@ -9,7 +9,7 @@ sentenceArray.each do |ele|
   index = -1
   while count < tempArr.length do
     ele = tempArr[index].reverse
-    ele << returnArr
+    returnArr.push(ele)
     index -= 1
     count +=1
   end
