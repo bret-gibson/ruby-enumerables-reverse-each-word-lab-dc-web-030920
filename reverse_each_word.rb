@@ -4,8 +4,8 @@ def reverse_each_word(sentence)
 sentenceArray = sentence.split(" ")
 returnString = ""
 count = 0
-sentenceArray.each do |ele|
-  if sentenceArray.length < count
+sentenceArray.each_with_index do |ele, index|
+  if index == -1
     returnString += "#{ele.reverse}"
   else
     returnString += "#{ele.reverse} "
