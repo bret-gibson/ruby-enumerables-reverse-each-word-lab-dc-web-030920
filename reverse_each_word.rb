@@ -6,7 +6,7 @@ returnString = ""
 sentenceArray.each do |ele|
   if sentenceArray.last
     returnString += "#{ele.reverse}"
-  else 
+  else
     returnString += "#{ele.reverse} "
   end
   puts ele.reverse
