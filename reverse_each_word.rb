@@ -2,7 +2,7 @@ require 'pry'
 
 def reverse_each_word(sentence)
 sentenceArray = sentence.split(" ")
-sentenceArray.reverse.each do |ele|
+sentenceArray.each do |ele|
   tempArr = ele.split(" ")
   count = 0
   index = -1
