@@ -10,9 +10,7 @@ sentenceArray.each_with_index do |ele, index|
   else
     returnString += "#{ele.reverse} "
   end
-  puts ele.reverse
   ele.reverse
 end
-puts returnString
 return returnString
 end
