@@ -8,6 +8,7 @@ sentenceArray.each do |ele|
   puts ele.reverse
   ele.reverse
 end
+return returnString
 returnArr = []
 =begin
 sentenceArray.each do |ele|
